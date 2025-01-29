@@ -18,4 +18,9 @@ The Chess Project utilizes advanced algorithms and heuristics to evaluate board 
   - The engine can adjust its strategy based on the opponent's play style, whether aggressive, defensive, or balanced. It uses heuristics to evaluate the board and determine the best course of action.
   - Tactics such as forks, pins, and skewers are recognized and utilized by the engine to gain material advantage or improve its position.
 
+- **Using FEN notation for easy input**:
+    - The engine supports Forsyth-Edwards Notation (FEN), a standard notation for describing a particular board position of a chess game. This allows users to input and load specific board states easily.
+    - FEN strings provide a concise way to represent the placement of all pieces, the active player, castling availability, en passant target squares, halfmove clock, and fullmove number.
+    - By using FEN notation, users can set up custom positions, analyze specific scenarios, or continue games from a particular point, enhancing the flexibility and usability of the engine.
+
 Overall, the combination of these advanced algorithms and strategic implementations allows my chess engine to play at a high (ish) level, making it a challenging opponent for human players and other chess engines.
